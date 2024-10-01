@@ -1,3 +1,3 @@
-void9(){
+void(){
   print("Hello World");
 }
