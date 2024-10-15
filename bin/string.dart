@@ -6,11 +6,11 @@ String namaBelakang = 'Samman';
 
 print(namaDepan);
 print(namaBelakang);
-print(namaDepan +' $namaBelakang');
+print('$namaDepan $namaBelakang');
 
 //String Interpolation
 //Kode Expression"$", mengambil data dari variable lain 
-var fullNama = '$namaDepan ${namaBelakang}';
+var fullNama = '$namaDepan $namaBelakang';
 print(fullNama);
 
 //kode karakter backslash"\", untuk menekankan bahwa karakter setelahnya dianggap benar string
@@ -37,11 +37,11 @@ String namaBelakang = 'Samman';
 
 print(namaDepan);
 print(namaBelakang);
-print(namaDepan +' $namaBelakang');
+print('$namaDepan $namaBelakang');
 
 //String Interpolation
 //Kode Expression"$", mengambil data dari variable lain 
-var fullNama = '$namaDepan ${namaBelakang}';
+var fullNama = '$namaDepan $namaBelakang';
 print(fullNama);
 
 //kode karakter backslash"\", untuk menekankan bahwa karakter setelahnya dianggap benar string

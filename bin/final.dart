@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 void main(){
   var namaDepan = 'Muhammad';
-  final namaBelakang = 'Samman'; //menggunakan final variable nya tidak bisa dideklarasikan ulang
+  const namaBelakang = 'Samman'; //menggunakan final variable nya tidak bisa dideklarasikan ulang
   namaDepan = 'Mansa';
  // namaBelakang = 'ID'; //Akan Error
   print(namaDepan + namaBelakang);
@@ -14,7 +14,7 @@ void main(){
 =======
 void main(){
   var namaDepan = 'Muhammad';
-  final namaBelakang = 'Samman'; //menggunakan final variable nya tidak bisa dideklarasikan ulang
+  const namaBelakang = 'Samman'; //menggunakan final variable nya tidak bisa dideklarasikan ulang
   namaDepan = 'Mansa';
  // namaBelakang = 'ID'; //Akan Error
   print(namaDepan + namaBelakang);

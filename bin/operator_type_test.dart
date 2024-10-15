@@ -7,9 +7,8 @@ void main(){
 dynamic variable = "Kucing";
 String value = variable as String;
 
-if(value is String){
+
   print('ini kucing saya');
-}
 if(value is! int){
   print('Ini bukan kucing saya');
 }
@@ -22,9 +21,7 @@ void main(){
 dynamic variable = "Kucing";
 String value = variable as String;
 
-if(value is String){
-  print('ini kucing saya');
-}
+print('ini kucing saya');
 if(value is! int){
   print('Ini bukan kucing saya');
 }

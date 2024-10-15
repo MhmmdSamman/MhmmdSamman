@@ -1,6 +1,6 @@
 //null check
 void main(){
-  int? age = null;
+  int? age;
 
   if(age != null){
   print(age.toDouble());
